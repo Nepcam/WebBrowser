@@ -39,7 +39,9 @@ namespace WebBrowser
 
         private void webBrowserApp_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
+            textBoxStatus.Clear();
             webBrowserApp.Document.Url.ToString();
+            webBrowserApp.DocumentTitle.ToString();
         }
     }
 }
