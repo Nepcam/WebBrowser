@@ -44,6 +44,8 @@
             this.webBrowserApp.Name = "webBrowserApp";
             this.webBrowserApp.Size = new System.Drawing.Size(800, 450);
             this.webBrowserApp.TabIndex = 0;
+            this.webBrowserApp.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowserApp_DocumentCompleted);
+            this.webBrowserApp.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowserApp_Navigating);
             // 
             // textBoxURL
             // 
@@ -51,7 +53,6 @@
             this.textBoxURL.Name = "textBoxURL";
             this.textBoxURL.Size = new System.Drawing.Size(482, 20);
             this.textBoxURL.TabIndex = 1;
-            this.textBoxURL.Text = "Enter URL";
             // 
             // textBoxStatus
             // 
@@ -68,6 +69,7 @@
             this.buttonBack.TabIndex = 3;
             this.buttonBack.Text = "Back";
             this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // buttonForward
             // 
@@ -77,6 +79,7 @@
             this.buttonForward.TabIndex = 4;
             this.buttonForward.Text = "Forward";
             this.buttonForward.UseVisualStyleBackColor = true;
+            this.buttonForward.Click += new System.EventHandler(this.buttonForward_Click);
             // 
             // buttonGo
             // 
@@ -86,11 +89,12 @@
             this.buttonGo.TabIndex = 5;
             this.buttonGo.Text = "Accept";
             this.buttonGo.UseVisualStyleBackColor = true;
+            this.buttonGo.Click += new System.EventHandler(this.buttonGo_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(545, 332);
+            this.listBox1.Location = new System.Drawing.Point(657, 355);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 6;
