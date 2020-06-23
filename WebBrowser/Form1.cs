@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace WebBrowser
 {
+    //Name: Cameron Nepe
+    //ID  : 1262199
     public partial class Form1 : Form
     {
         public Form1()

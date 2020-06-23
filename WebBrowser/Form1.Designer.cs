@@ -48,10 +48,10 @@
             // 
             // webBrowserApp
             // 
-            this.webBrowserApp.Location = new System.Drawing.Point(0, 0);
+            this.webBrowserApp.Location = new System.Drawing.Point(0, 60);
             this.webBrowserApp.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowserApp.Name = "webBrowserApp";
-            this.webBrowserApp.Size = new System.Drawing.Size(800, 450);
+            this.webBrowserApp.Size = new System.Drawing.Size(800, 390);
             this.webBrowserApp.TabIndex = 0;
             this.webBrowserApp.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowserApp_DocumentCompleted);
             this.webBrowserApp.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowserApp_Navigating);
@@ -134,36 +134,36 @@
             // newBookmarkFileToolStripMenuItem1
             // 
             this.newBookmarkFileToolStripMenuItem1.Name = "newBookmarkFileToolStripMenuItem1";
-            this.newBookmarkFileToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.newBookmarkFileToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.newBookmarkFileToolStripMenuItem1.Text = "New Bookmark File";
             // 
             // loadBookmarkFileToolStripMenuItem
             // 
             this.loadBookmarkFileToolStripMenuItem.Name = "loadBookmarkFileToolStripMenuItem";
-            this.loadBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loadBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.loadBookmarkFileToolStripMenuItem.Text = "Load Bookmark File";
             // 
             // saveBookmarkFileToolStripMenuItem
             // 
             this.saveBookmarkFileToolStripMenuItem.Name = "saveBookmarkFileToolStripMenuItem";
-            this.saveBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.saveBookmarkFileToolStripMenuItem.Text = "Save Bookmark File";
             // 
             // addBookmarkToolStripMenuItem
             // 
             this.addBookmarkToolStripMenuItem.Name = "addBookmarkToolStripMenuItem";
-            this.addBookmarkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addBookmarkToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.addBookmarkToolStripMenuItem.Text = "Add Bookmark";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(175, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // Form1
