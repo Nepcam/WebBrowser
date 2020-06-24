@@ -19,6 +19,9 @@ namespace WebBrowser
             InitializeComponent();
         }
 
+        //Store bookmarks for webpages
+        List<string> bookMarks = new List<string>();
+
         private void buttonBack_Click(object sender, EventArgs e)
         {
             webBrowserApp.GoBack();
@@ -44,6 +47,18 @@ namespace WebBrowser
             textBoxStatus.Clear();
             webBrowserApp.Document.Url.ToString();
             webBrowserApp.DocumentTitle.ToString();
+        }
+
+        private void UpdateListBox(List<string> bookMarks)
+        {
+            //Clears the current items displayed in the listbox
+            listBox1.Items.Clear();
+            //Goes through each bookmark in the List<> bookMarks 
+            foreach (string str in bookMarks)
+            {
+                //display the URLs to the listbox 
+                listBox1.Items.Add(bookMarks);
+            }
         }
     }
 }
