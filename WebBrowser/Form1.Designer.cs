@@ -134,36 +134,38 @@
             // newBookmarkFileToolStripMenuItem1
             // 
             this.newBookmarkFileToolStripMenuItem1.Name = "newBookmarkFileToolStripMenuItem1";
-            this.newBookmarkFileToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
+            this.newBookmarkFileToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.newBookmarkFileToolStripMenuItem1.Text = "New Bookmark File";
+            this.newBookmarkFileToolStripMenuItem1.Click += new System.EventHandler(this.newBookmarkFileToolStripMenuItem1_Click);
             // 
             // loadBookmarkFileToolStripMenuItem
             // 
             this.loadBookmarkFileToolStripMenuItem.Name = "loadBookmarkFileToolStripMenuItem";
-            this.loadBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.loadBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadBookmarkFileToolStripMenuItem.Text = "Load Bookmark File";
             // 
             // saveBookmarkFileToolStripMenuItem
             // 
             this.saveBookmarkFileToolStripMenuItem.Name = "saveBookmarkFileToolStripMenuItem";
-            this.saveBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.saveBookmarkFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveBookmarkFileToolStripMenuItem.Text = "Save Bookmark File";
             // 
             // addBookmarkToolStripMenuItem
             // 
             this.addBookmarkToolStripMenuItem.Name = "addBookmarkToolStripMenuItem";
-            this.addBookmarkToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.addBookmarkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addBookmarkToolStripMenuItem.Text = "Add Bookmark";
+            this.addBookmarkToolStripMenuItem.Click += new System.EventHandler(this.addBookmarkToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(175, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // Form1

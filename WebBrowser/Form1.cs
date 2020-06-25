@@ -49,6 +49,11 @@ namespace WebBrowser
             webBrowserApp.DocumentTitle.ToString();
         }
 
+        /// <summary>
+        /// clears the current contents of the listbox and goes through each bookmark in the bookmark list and displays 
+        //the URL to the listbox until all the URL's are displayed
+        /// </summary>
+        /// <param name="bookMarks"></param>
         private void UpdateListBox(List<string> bookMarks)
         {
             //Clears the current items displayed in the listbox
@@ -58,6 +63,36 @@ namespace WebBrowser
             {
                 //display the URLs to the listbox 
                 listBox1.Items.Add(bookMarks);
+            }
+        }
+
+        /// <summary>
+        /// will clear the bookmarks list, clears the contents of the listbox and also clears the URL textbox
+        /// </summary>
+        /// <param name="bookMarks"></param>
+        private void Initialise(List<string> bookMarks)
+        {
+            //Clear the bookmarks list<>
+            bookMarks.Clear();
+            //Clear contents of the listbox
+            listBox1.Items.Clear();
+            //Clear the URL textbox
+            textBoxURL.Clear();
+        }
+
+        private void newBookmarkFileToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            //Call the Initialise method 
+            Initialise(bookMarks);
+        }
+
+        private void addBookmarkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Check URL textbox is not empty
+            if (!string.IsNullOrEmpty(this.textBoxURL.Text))
+            {
+                //Add current URL to the bookmark list 
+
             }
         }
     }
