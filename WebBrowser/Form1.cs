@@ -92,8 +92,15 @@ namespace WebBrowser
             if (!string.IsNullOrEmpty(this.textBoxURL.Text))
             {
                 //Add current URL to the bookmark list 
-
+                bookMarks.Add(textBoxURL.Text);
+                //Update the listbox
+                UpdateListBox(bookMarks);
             }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
